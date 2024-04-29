@@ -1,4 +1,4 @@
-@import "./responsive.scss";
+@import "../../responsive.scss";
 .layout{
 //  background-color: orange  ;
     height: 100vh;
@@ -22,7 +22,8 @@
          max-width: 472px;
      }
     .content{
-        flex : 1; 
+        // flex : 1; 
+        height: calc(100vh - 100px);
     }
    
 
