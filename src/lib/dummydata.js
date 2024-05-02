@@ -118,19 +118,27 @@ export const listData = [
     bedRooms: 2,
     bathroom: 1,
     size: 861,
-    latitude: 51.5074,
-    longitude: -0.1278,
+    latitude: 31.624124,
+    longitude: -7.993541,
     city: "London",
     address: "1234 Broadway St",
+    participants:3,
+    totalParticipants:20,
     school: "250m away",
     bus: "100m away",
     restaurant: "50m away",
     description:
       "Future alike hill pull picture swim magic chain seed engineer nest outer raise bound easy poetry gain loud weigh me recognize farmer bare danger. actually put square leg vessels earth engine matter key cup indeed body film century shut place environment were stage vertical roof bottom lady function breeze darkness beside tin view local breathe carbon swam declared magnet escape has from pile apart route coffee storm someone hold space use ahead sheep jungle closely natural attached part top grain your grade trade corn salmon trouble new bend most teacher range anybody every seat fifteen eventually",
+    estimatedDuration : "2 jours ",
+    minAge : "18 yo" ,
+    startDate : "Monday at 11am" ,
   };
   
   export const userData = {
     id: 1,
     name: "John Doe",
     img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    badge : "silver" , 
+    lastOnline : "17 minutes ago"
+
   };

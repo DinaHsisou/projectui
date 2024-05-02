@@ -1,4 +1,5 @@
 @import "../../responsive.scss" ; 
+@import "../../routes/singlePage/singlePage.scss";
 nav{
     display : flex ; 
     justify-content: space-between;
@@ -59,7 +60,7 @@ nav{
 
         .menuIcon{
             display: none ; 
-            z-index: 999;
+            z-index: 99999;
             img{
                 width: 36px;
                 height:36px ;
@@ -67,6 +68,7 @@ nav{
             }
             @include sm{
                 display: initial;
+               
             }
         }
         .menu{
@@ -82,13 +84,16 @@ nav{
               flex-direction: column;
               align-items: center;
               justify-content: center;
+              z-index: 999;
+             
               a{
                 margin-top: -10px;
                }
         
             &.active{
+               
                right:0; 
-             
+              
              
             
             }
@@ -96,7 +101,9 @@ nav{
             @include sm{
                 a{
                     display: initial ; 
+                 
                 }
+                
             }
           
     }
